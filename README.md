@@ -10,10 +10,14 @@ In this challenge, we want to explore different natural language processing and 
 
 # Tasks:
 
-1.Test different textual representation models and preprocessing tasks 
-2.Discover similar descriptions and characterize the obtained clusters
-3.Discover patterns (e.g., topics) from the analyzed descriptions 
-4.Visualize and validate the obtained results
+1.Test different textual representation models and preprocessing tasks.
+
+2.Discover similar descriptions and characterize the obtained clusters.
+
+3.Discover patterns (e.g., topics) from the analyzed descriptions.
+
+4.Visualize and validate the obtained results.
+
 
 # Requirements
 • Input: summaries  of  GDPR  violations,  extracted  from  the GDPR  EnforcementTracker  dataset https://www.enforcementtracker.com/
