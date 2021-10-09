@@ -9,3 +9,10 @@ which illustrates this:
 ![image](https://user-images.githubusercontent.com/26960395/136666505-7b85b1ab-b706-453e-af31-422c894a6f7c.png)
 
  
+# Getting a high-level overview of the spaCy library
+spaCy is focused on production and shipping code, unlike its more academic 
+predecessors. The most famous and frequently used Python predecessor is NLTK. NLTK's 
+main focus was providing students and researchers an idea of language processing
+
+
+![image](https://user-images.githubusercontent.com/26960395/136666641-34fa009b-efdc-40fe-bbc9-558af49834b1.png)
