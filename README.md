@@ -16,3 +16,14 @@ main focus was providing students and researchers an idea of language processing
 
 
 ![image](https://user-images.githubusercontent.com/26960395/136666641-34fa009b-efdc-40fe-bbc9-558af49834b1.png)
+
+
+# Overview of spaCy conventions
+When we call nlp on our text, spaCy applies some processing steps. The first step is 
+tokenization to produce a Doc object. The Doc object is then processed further with a 
+tagger, a parser, and an entity recognizer. This way of processing the text is called a 
+language processing pipeline. Each pipeline component returns the processed Doc and 
+then passes it to the next component:
+
+
+![image](https://user-images.githubusercontent.com/26960395/136666795-9aa24dce-d81c-4a39-9768-72bc7dcb7c9c.png)
