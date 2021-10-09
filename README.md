@@ -27,3 +27,13 @@ then passes it to the next component:
 
 
 ![image](https://user-images.githubusercontent.com/26960395/136666795-9aa24dce-d81c-4a39-9768-72bc7dcb7c9c.png)
+
+
+The Language class applies all of the preceding pipeline steps to your input sentence 
+behind the scenes. After applying nlp to the sentence, the Doc object contains tokens that 
+are tagged, lemmatized, and marked as entities if the token is an entity (we will go into 
+detail about what are those and how it's done later). Each pipeline component has a welldefined task:
+
+
+![image](https://user-images.githubusercontent.com/26960395/136666826-6f8f12fb-9007-4536-9256-03d431a701c2.png)
+
