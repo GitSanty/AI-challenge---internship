@@ -1,3 +1,27 @@
+# AI LAB CHALLENGE
+
+# Context
+Sensitive data has great value, which is why many governments have established regulations that address both data protection and data privacy. The General Data Protection Regulation (GDPR) of the European Union (EU) is one of the most influential laws in recent years. Any company that does business in theEU or the European Economic Area (EEA), or that markets products or services for people in the EU or EEA must  comply  with  GDPR  standards  or  face  severe  financial  repercussions  in  the  form  of  fines  and injunctions.
+
+The  CMS.LawGDPR  Enforcement  Tracker  is  an  overview  of  fines  and  penalties  which  data  protection authorities within the EU have imposed under the EU GDPR. Different features are involved in this dataset(e.g., Id,  Country, Date  of decision,  Fine,  Controller/Processor, Quoted  Article,  Type,  Source,  Authority, Sector, and Summary). The Summary feature provides a free text description of the violation. It would be interesting  to  extract  patterns  from  such  descriptions  to  learn  from  these  examples,  and  thus  prevent companies from committing the same breaches.
+
+# Description
+In this challenge, we want to explore different natural language processing and text mining techniques to discover knowledge from the summaries of fines and penalties in the GDPR Enforcement Tracker dataset. The  goal  is  to cluster  the  descriptions  of GDPR  violationsand  also  discover  patterns  from  similar descriptions. 
+
+# Tasks:
+
+1.Test different textual representation models and preprocessing tasks 
+2.Discover similar descriptions and characterize the obtained clusters
+3.Discover patterns (e.g., topics) from the analyzed descriptions 
+4.Visualize and validate the obtained results
+
+# Requirements
+• Input: summaries  of  GDPR  violations,  extracted  from  the GDPR  EnforcementTracker  dataset https://www.enforcementtracker.com/
+• Output: obtained clusters and their characterization
+• frameworks: for Natural Language Processing (NLP): NLTK and spaCy. For Machine Learning (ML): SciKit-learn and Keras
+
+
+
 # Understanding NLP
 Scientists have been working on this precise question since the turn of the last century and,
 as of today, we have attained reasonable success in this area. The research on how to make
