@@ -20,9 +20,12 @@ In this challenge, we want to explore different natural language processing and 
 
 
 # Requirements
-• Input: summaries  of  GDPR  violations,  extracted  from  the GDPR  EnforcementTracker  dataset https://www.enforcementtracker.com/
-• Output: obtained clusters and their characterization
-• frameworks: for Natural Language Processing (NLP): NLTK and spaCy. For Machine Learning (ML): SciKit-learn and Keras
+• Input: summaries  of  GDPR  violations,  extracted  from  the GDPR  EnforcementTracker  dataset https://www.enforcementtracker.com/.
+
+• Output: obtained clusters and their characterization.
+
+• frameworks: for Natural Language Processing (NLP): NLTK and spaCy. For Machine Learning (ML): SciKit-learn and Keras.
+
 
 
 
